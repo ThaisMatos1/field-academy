@@ -15,10 +15,10 @@ do
 done
 
 
-
-if [ ! -d ~/FIELD-ACADEMY ]; then
+pash=~/FIELD-ACADEMY
+if [ ! -d $pash ]; then
   echo "Criando novo diretorio...";
-  mkdir ~/FIELD-ACADEMY;
+  mkdir $pash;
 if [ "$?" -eq "0" ];then
   echo
   echo "DIRETÓRIO CRIADO COM SUCESSO"
@@ -31,7 +31,6 @@ fi
 
 echo "=============================================================================="
 echo 
-echo "Foi criado um novo arquivo helloword.js com a seguinte mensagem: "
-echo 
-echo "console.log('Hello World')" > ~/FIELD-ACADEMY/helloWord.js
-node ~/FIELD-ACADEMY/helloWord.js
+echo "Foi criado um novo arquivo helloworld.js com a seguinte mensagem: "
+echo "Hello world"
+echo "console.log('Hello World)" > $pash/helloworld.js

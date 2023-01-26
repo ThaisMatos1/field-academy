@@ -1,93 +1,123 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Bai+Jamjuree & display família= Bai+Jamjuree:wght@400;600 & swap" rel="stylesheet">
 </head>
 <body>
-    
     <header class="cabecalho">
-        <img class="cabecalho-imagem" src="logo.svg" alt="Logo da landing page">
-        <h1 class="cabecalho-titulo"> A history of everything you copy</h1>
-        <p class="cabecalho-paragrafo">Clipboard allows you to track and organize everything you copy. Instantly acess you clipboard on all your devices.</p>
-        <button class="cabecalho-button">Donwload for iOS</button>
-        <button class="cabecalho-button">Donwload for Mac</button>
-        
-        
+        <div class="cabecalho-img">
+            <img src="logo.svg" alt="logo">
+        </div>
+        <div class="cabecalho-text">
+            <h1>A history of everything you copy</h1>
+            <p>Clipboard allows you to track and organize everything you copy. Instantly acess you clipboard on all your devices.</p>
+        </div>
+        <div class="acao">
+            <button class="acao1">Download for iOS</button>
+            <button class="acao2">Download for Mac</button>
+        </div>
     </header>
-    <main class="conteudo">
-        <section class="conteudo-principal">
-            <div class="conteudo-principal-escrito">
-                <h2 class="conteudo-principal-escrito-subtitulo">Keep tranck of your snippets</h2>
-                <p class="conteudo-principal-escrito-paragrafo">Clipboard instantly store any item you  copy in the cloud, meaning you can access you snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
-            </div> 
-            <img class="conteudo-principal-imagem" src="image-computer.png" alt="Imagem de um computador">
-            <div class="conteudo-secundario-escrito">
-                <h3 class="conteudo-secundario-escrito-titulo">Quick Search
-                </h3>
-                <p class="conteudo-secundario-escrito-paragrafo">Easily search youtr snippets by content, category, web address, application, and more.</p>
-                <h3 class="conteudo-secundario-escrito-titulo">iCloud Sync</h3>
-                <p class="conteudo-secundario-escrito-paragrafo">Instantly saves and syncs snippets across all your devices.</p>
-                <h3 class="conteudo-secundario-escrito-titulo">Complete History</h3>
-                <p class="conteudo-secundario-escrito-paragrafo">Retrieve any snippets from the first moment you started using the app.</p>
+    <main>
+        <section class="conteudo">
+            <div class="conteudo-primario">
+                <h2>Keep tranck of your snippets</h2>
+                <p>Clipboard instantly store any item you copy in the cloud, meaning you can access you snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
             </div>
         </section>
-        <section class="conteudo-secundario"> 
-            <div class="conteudo-secundario-escrito">
-                <h2 class="conteudo-secundario-escrito-titulo">Access Clipboard anywhere</h2>
-                <p class="conteudo-secundario-escrito-paragrafo">Whether you're on the go, or at you computer, you can acess all your Clipboard snippets in a few simple clicks.</p>
-                <img class="conteudo-secundario-imagem" src="image-devices.png" alt="Imagem computador e celular">
+        <section class="coluna">
+            <div>
+                <img src="image-computer.png" alt="imagem computador" class="coluna-imagem">
+            </div>
+            <div class="coluna-text">
+                <h3>Quick Search</h3>
+                <p>Easily search youtr snippets by content, category, web address, application, and more.</p>
+                <h3>iCloud Sync</h3>
+                <p>Instantly saves and syncs snippets across all your devices.
+                </p>
+                <h3>Complete History</h3>
+                <p>Retrieve any snippets from the first moment you started using the app</p>
             </div>
         </section>
-
+        <section class="conteudo-secundario">
+            <div class="conteudo-secundario-text">
+                <h2>Access Clipboard anywhere</h2>
+                <p>Whether you're on the go, or at you computer, you can acess all your Clipboard snippets in a few simple clicks.</p>
+            </div>
+        </section>
+            <div class="conteudo-secundario-imag">
+                <img src="image-devices.png" alt="imagem computador e celular">
+            </div>
+        <section class="conteudo-final">
+            <div class="conteudo-final-titulo">
+                <h2>Supercharge your workflow</h2>
+                <p>We've got the tools to boots your productivity.</p>
+            </div>
+        </section>
+        <section class="conteudo-final-coluna">
+            <div class="conteudo-final-coluna-text1">
+                <img src="icon-blacklist.svg" alt="icone lista">
+                <h3>Create blacklists</h3>
+                <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+            </div>
+            <div class="conteudo-final-coluna-text2">
+                <img src="icon-text.svg" alt="icone texto">
+                <h3>Plain text snippets</h3>
+                <p>Remove unwanted formatting from copie text for a consistent look.</p>
+            </div>
+            <div class="conteudo-final-coluna-text3">
+                <img src="icon-preview.svg" alt="icone pre-visualização">
+                <h3>Sneak preview</h3>
+                <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+            </div>
+        </section>
+        <section class="final">
+            <div class="final-logo">
+                <img src="logo-google.png" alt="logo google">
+                <img src="logo-ibm.png" alt="logo ibm">
+                <img src="logo-microsoft.png" alt="logo-microsoft">
+                <img src="logo-hp.png" alt="logo hp">
+                <img src="logo-vector-graphics.png" alt="logo vector graphics">
+            </div>
+        </section>
     </main>
-    <footer class="rodape">    
-        <div class="rodape-principal-escrito">
-            <h2 class="rodape-principal-escrito-titulo">Supercharge your workflow</h2>
-            <p class="rodape-principal-escrito-paragrafo">We've got the tools to boots your productivity.</p>
-            <img class="rodape-principal-escrito-imagem" src="icon-blacklist.svg" alt="Icone de lista">
-            <h3 class="rodape-principal-escrito-subtitulo">Create blacklists </h3>
-            <p class="rodape-principal-escrito-paragrafo">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-            <img class="rodape-principal-escrito-imagem" src="icon-text.svg" alt="Icone de texto">
-            <h3 class="rodape-principal-escrito-subtitulo">Plain text snippets</h3>
-            <p class="rodape-principal-escrito-paragrafo">Remove unwanted formatting from copie text for a consistent look.</p>
-            <img class="rodape-principal-escrito-imagem" src="icon-preview.svg" alt="Icone de pré-visualização">
-            <h3 class="rodape-principal-escrito-subtitulo">Sneak preview</h3>
-            <p class="rodape-principal-escrito-paragrafo">Quick preview of all snippets on your Clipboard for easy access.</p>
-        </div>
-        <div class="rodape-principal-imagem">
-            <img class="rodape-principal-imagem" src="logo-google.png" alt="Logo do google">
-            <img class="rodape-princiapl-imagem" src="logo-ibm.png" alt="Logo da IBM">
-            <img class="rodape-principal-imagem" src="logo-microsoft.png" alt="Logo da Microsoft">
-            <img class="rodape-principal-imagem" src="logo-hp.png" alt="Logo da HP">
-            <img class="rodape-principal-imagem" src="logo-vector-graphics.png" alt="Logo Vector Graphics">
-        </div>
-        <div class="rodape-secundario-escrito">
-            <h2 class="rodape-secundario-escrito-titulo">Clipboard for iOS and Mac OS</h2>
-            <p class="rodape-secundario-escrito-paragrafo">Available for free on the App Story. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
-            <button class="rodape-button">Download for iOS</button>
-            <button class="rodape-button">Download for Mac</button>
-        </div>
-        <div class="rodape-final">
-            <img class="rodape-final-imagem" src="logo.svg" alt="">
-           <nav class="rodape-final-menu">
-            <a class="rodape-final-menu-escrito">FAQs</a>
-            <a class="rodape-final-menu-escrito">Contact Us</a>
-            <a class="rodape-final-menu-escrito">Privacy Policy</a>
-            <a class="rodape-final-menu-escrito">Press kit</a>
-            <a class="rodape-final-menu-escrito">Install Guide</a>
-           </nav>
-            
-        </div>
-        <div class="rodape-final-secundario"> 
-            <img class="rodape-final-secundario-imagem" src="icon-facebook.svg" alt="Icone do Facebook">
-            <img class="rodape-final-secundario-imagem" src="icon-twitter.svg" alt="Icone do Twitter">
-            <img class="rodape-final-secundario-imagem" src="icon-instagram.svg" alt="Icone do Instagram">
-        </div>
-      
-         
+    <footer>
+        <section class="rodape">
+            <div class="rodape-text">
+                <h2>Clipboard for iOS and Mac OS</h2>
+                <p>heAvailable for free on the App Story. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
+            </div>
+         </section>
+            <div class="acao">
+                <button class="acao1">Donwnload for iOS</button>
+                <button class="acao2">Download for Mac</button>
+            </div>
+        <section class="rodape-final">
+            <div class="rodape-final-logo">
+                 <img src="logo.svg" alt="logo">
+             </div>
+             <div class="rodape-final-lista">
+                <ul>
+                   <li>FAQs</li>
+                   <li>Contact US</li>
+                   <li>Privacy Policy</li>
+                   <li>Press Kit</li>
+                   <li>install Guide</li>
+                </ul>
+             </div>
+            <div class="rodape-final-icones">
+                <img src="icon-facebook.svg" alt="icone facebook">
+                 <img src="icon-twitter.svg" alt="icone twitter">
+                 <img src="icon-instagram.svg" alt="icone instagram">
+             </div>
+         </section>
     </footer>
 </body>
 </html>

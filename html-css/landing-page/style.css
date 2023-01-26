@@ -1,8 +1,9 @@
 :root {
     --blue:#6173ff;
     --cyan: #26BAA4;
-    --text: #C0C0C0;
+    --text: hsl(201, 11%, 66%);
     --fonte: 'Bai Jamjuree';
+    --Grayish: hsl(201, 11%, 66%);
 }
 *{
     margin: 0;
@@ -16,7 +17,7 @@ header {
     background-size: cover;
 }
 body {
-    background-color: #F8F8FF;
+    background-color: white;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -37,7 +38,7 @@ body {
 }
 h1,h2,h3 {
     font-weight: 600;
-    color:black;
+    color: hsl(210, 10%, 33%)
 }
 .cabecalho-text {
     display: flex;
@@ -172,21 +173,69 @@ h1,h2,h3 {
 }
 .rodape-final {
     display: flex;
-    color: black;
+    color: hsl(210, 10%, 33%);
+    height: 350px;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content:space-around;
+    padding-top: 25px;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
 }
-.rodape-final-logo {
+.rodape-itens {
+    
+    width: 100%;
     display: flex;
     flex-direction: row;
-    border: 25;
-    margin: 2em 0 2em 0;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 0;
+    
+}
+.rodape-final-logo {
+    padding-left:10px;
+    padding-bottom: 20px;
 }
 .rodape-final-lista {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    gap: 18px;
+    margin: auto;
+    padding: 50px;
 }
 
+.rodape-final-lista{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    gap: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.rodape-final-icones {
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    padding-bottom: 20px;
+    gap: 18px;
+    margin: auto;
+    padding: 50px;
+} 
 
 
 
